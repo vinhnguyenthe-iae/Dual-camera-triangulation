@@ -1,0 +1,11 @@
+opencv-python
+mediapipe
+numpy
+pyqt5
+pyqtgraph
+PyOpenGL
+PyOpenGL-accelerate
+tqdm
+scipy
+pyyaml
+opencv-contrib-python

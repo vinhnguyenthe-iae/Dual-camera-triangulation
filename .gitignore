@@ -1,0 +1,32 @@
+ # Python
+ __pycache__/
+ *.py[cod]
+ *.pyo
+ *.pyd
+ *.so
+ *.egg-info/
+
+ # Environments
+ .env
+ .venv/
+ venv/
+ hand-triangulation.venv/
+
+ # IDE / Editor
+ .vscode/
+ .idea/
+
+ # OS / Misc
+ .DS_Store
+ Thumbs.db
+ *.log
+
+ # Build / Artifacts
+ build/
+ dist/
+
+ # Models and large binaries (download via scripts)
+ models/
+
+ # Notebook checkpoints
+ .ipynb_checkpoints/

@@ -1,0 +1,26 @@
+camera:
+  camera1:
+    id: 0
+    resolution: [640, 480]
+    fps: 30
+  camera2:
+    id: 3
+    resolution: [640, 480]
+    fps: 30
+
+detection:
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+
+triangulation:
+  num_keypoints: 21
+  max_reprojection_error: 0.01
+
+visualization:
+  show_3d_points: true
+  point_size: 5
+  line_width: 2
+
+output:
+  triangulated_keypoints_csv: "data/output/triangulated_keypoints.csv"
+  visualization_video: "data/output/hand_3d_tracking.mp4"
